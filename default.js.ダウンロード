@@ -1,0 +1,325 @@
+$(function() {
+//------------------------------------------------------------------------------------
+//    drawer
+//------------------------------------------------------------------------------------
+
+$('.drawer').drawer();
+
+//------------------------------------------------------------------------------------
+//    window size get
+//------------------------------------------------------------------------------------
+
+function $mainvisualHeight() {
+    //var nH = $('.l-header').innerHeight();// ナビの高さを取得
+    var wH = $(window).height();// 表示画面の高さを取得
+    //var hH = wH - nH;// 表示画面とナビエリアの差分を算出
+    //$('.l-mainvisual').css('height', hH + 'px');// 算出した差分をヘッダーエリアの高さに指定
+    $('.l-mainvisual').css('height', wH + 'px');// 算出した差分をヘッダーエリアの高さに指定
+}
+function $mainvisual02Height() {
+    var wH = $(window).height();
+    var wH = wH - 200;
+    $('.l-mainvisual02').css('height', wH + 'px');
+}
+
+$(window).on('load resize',function(){
+    if (window.matchMedia('(max-width:767px)').matches) {
+        $mainvisual02Height();
+        $mainvisualHeight();
+    } else {
+        $mainvisualHeight();
+    }
+});
+
+//------------------------------------------------------------------------------------
+//    pull down / accordion
+//------------------------------------------------------------------------------------
+
+$('.js-pullTrig').on('click',function(){
+    $(this).parents('.js-pullWrap').find('.js-pullTarg').slideToggle();
+    $(this).toggleClass('-active');
+});
+
+//------------------------------------------------------------------------------------
+//    js-infoTxt
+//------------------------------------------------------------------------------------
+
+var flg = "default";
+$('.js-infoTxt').on('click', function () {
+    if (flg == "default") {
+        $(this).text("閉じる");
+        flg = "changed";
+    } else {
+        $(this).text("インフォメーションをもっと見る");
+        flg = "default";
+    }
+});
+
+//------------------------------------------------------------------------------------
+//    fadein animation inview.js
+//------------------------------------------------------------------------------------
+
+$('.js-fadein').on('inview', function (event, isInView) {
+    if (isInView) {
+        $(this).addClass('-active');
+    } else {
+
+    }
+});
+
+//------------------------------------------------------------------------------------
+//    tel
+//------------------------------------------------------------------------------------
+
+var ua = navigator.userAgent.toLowerCase();
+var isMobile = /iphone/.test(ua)||/android(.+)?mobile/.test(ua);
+
+$(function(){
+    $('a[href^="tel:"]').css({'cursor':'default','opacity':'1'});
+//    $('a[href^="tel:"]').hover(function(){
+//        $(this).css('opacity','1');
+//    });
+});
+if (!isMobile) {
+    $('a[href^="tel:"]').on('click', function(e) {
+        e.preventDefault();
+    });
+}
+
+//------------------------------------------------------------------------------------
+//    smooth scroll
+//------------------------------------------------------------------------------------
+
+var headerHight = $('.l-header').outerHeight();
+$('a[href^="#"]:not(.js-modalTrig,.js-galleryTrig,.noScroll)').click(function () {
+    var speed = 500;
+    var href = $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top - headerHight;
+    $('body,html').animate({scrollTop: position}, speed, 'linear');
+    return false;
+});
+
+
+//------------------------------------------------------------------------------------
+//    page top
+//------------------------------------------------------------------------------------
+
+	var topBtn = $('.js-pageTop');
+
+	topBtn.hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 600) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+
+	topBtn.click(function () {
+        $('body,html').animate({
+        scrollTop: 0 }, 300);
+        return false;
+	});
+
+//------------------------------------------------------------------------------------
+//    tab
+//------------------------------------------------------------------------------------
+
+$('.js-tabTrig li').click(function () {
+    var index = $('.js-tabTrig li').index(this);
+    $(this).parents('.js-tabWrap').find('.js-tabTarg').children('li').css('display', 'none');
+    $(this).parents('.js-tabWrap').find('.js-tabTarg').children('li').eq(index).css('display', 'block');
+    $(this).parents('.js-tabWrap').find('.js-tabTrig').children('li').removeClass('-active');
+    $(this).addClass('-active')
+});
+
+//------------------------------------------------------------------------------------
+//    slick
+//------------------------------------------------------------------------------------
+
+
+$(".js-slick").each(function() {
+    $(this).slick({
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding: '0',
+        centerMode: true,
+        dots: false,
+        arrows: false,
+        variableWidth: true
+    });
+});
+
+//------------------------------------------------------------------------------------
+//    slick spOnly
+//------------------------------------------------------------------------------------
+
+var mql = window.matchMedia('screen and (max-width: 767px)');
+
+function checkBreakPoint(mql) {
+    if (mql.matches) {
+        $(".spSlick").each(function() {
+            $(this).not('.slick-initialized').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerPadding: '0',
+                centerMode: true,
+                dots: false,
+                arrows: false,
+                variableWidth: true
+            });
+        });
+    } else {
+        $('.spSlick.slick-initialized').slick('unslick');
+    }
+}
+
+// ブレイクポイントの瞬間に発火
+mql.addListener(checkBreakPoint);
+
+// 初回チェック
+checkBreakPoint(mql);
+
+//------------------------------------------------------------------------------------
+//    magnificPopup
+//------------------------------------------------------------------------------------
+
+$('.js-modalTrig').magnificPopup({
+    type:'inline',
+    mainClass: 'mfp-fade',//埋め込みたいclass名
+    removalDelay: 150,
+    preloader: false,
+    callbacks: {
+        open: function () {
+            closeBtn();
+            $modalOn ();
+            $('.mfp-wrap').addClass('modalHeight100');
+        },
+        close: function () {
+            $modalOff ();
+        }
+    }
+});
+//$('.js-modalTrig').on('click',function(){
+//    $('.mfp-wrap').addClass('modalHeight100');
+//});
+function closeBtn(){
+  $('.l-mfpClose').on('click',function(){
+    $('.js-modalTarg').magnificPopup('close');
+      $modalOff ();
+  });
+}
+
+//start modal
+//$(window).bind("load", function(){
+//    if(document.URL.match("/shop/")) {
+//        $.magnificPopup.open({
+//            items: {src: '#startModal'},
+//            type: 'inline',
+//            modal: true,
+//            mainClass: 'mfp-fade',
+//            removalDelay: 150,
+//            preloader: false,
+//            callbacks: {
+//            open: function () {
+//                closeBtn();
+//                $modalOn ();
+//                }
+//            }
+//       }, 0);
+//        $('.mfp-wrap').addClass('modalHeight100');
+//    }
+//});
+
+//------------------------------------------------------------------------------------
+//    magnificPopup gallery
+//------------------------------------------------------------------------------------
+
+$('.js-galleryTrig').on('click', function () {
+    var itemNum = $(this).data('slidenum')-1;
+    var $bgfixContents = $('.c-comMfpWrap_garelly');
+
+    console.log(itemNum + 1);
+    var items = [];
+    $($(this).attr('href')).find('.slide').each(function () {
+        items.push({
+            src: $(this)
+        });
+    });
+
+    $.magnificPopup.open({
+        mainClass: "c-comMfpWrap_garelly",
+        items: items,
+        mainClass: 'mfp-fade',
+        removalDelay: 150,
+        callbacks: {
+            open: function(){
+                closeBtn();
+//                $bgfixContents.css("position", "fixed");
+                $modalOn ();
+//                $('.mfp-wrap').addClass('modalHeight100');
+            },
+            close: function(){
+//                $bgfixContents.css("position", "");
+                $modalOff ();
+            }
+        },
+        gallery: {
+            enabled: true,
+            arrowMarkup: '<div title="%title%" role="button" class="gallery-arrow gallery-arrow-%dir%"></div>'
+        }
+    }, itemNum);
+});
+
+//------------------------------------------------------------------------------------
+//    modal bg fix
+//------------------------------------------------------------------------------------
+
+function $modalOff (){
+    $( 'body' ).attr( { style: '' } );
+    $( 'html, body' ).prop( { scrollTop: current_scrollY } );
+}
+
+function $modalOn (){
+    current_scrollY = $( window ).scrollTop();
+    $( 'body' ).css( {
+        position: 'fixed',
+        width: '100%',
+        top: -1 * current_scrollY
+    } );
+}
+
+//------------------------------------------------------------------------------------
+//    matchMedia
+//------------------------------------------------------------------------------------
+
+var flag = false;
+$( window ).on( 'load resize', function() {
+    flag = ( window.matchMedia('(max-width:767px)').matches );
+} );
+    
+$(window).on('load resize',function(){
+    if (flag) {
+        $('.l-fixedMember').addClass('-sp');
+    } else {
+        $('.l-fixedMember').removeClass('-sp');
+    }
+});
+$(window).on('scroll',function(){
+    if ($(this).scrollTop() > 600) {
+        $('.l-fixedMember.-sp').addClass('-active');
+    } else {
+        $('.l-fixedMember.-sp').removeClass('-active');
+    }
+    scrollHeight = $(document).height();
+    scrollPosition = $(window).height() + $(window).scrollTop();
+    if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.02) {
+        $('body').addClass('-page-bottom');
+    } else {
+        $('body').removeClass('-page-bottom');
+    }
+});
+//----------------------------------------------------------------------------------
+});

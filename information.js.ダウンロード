@@ -1,0 +1,69 @@
+var shop_info = [
+{
+	"publish-start": "2025-01-06 16:00:00",
+	"publish-end": "2025-01-11 11:00:00",
+	"info_html": '<p><strong>【電気点検（停電）に伴う営業一時休止のお知らせ】</strong><br />下記時間、電気点検のため停電いたします。点検中は施設のご利用を休止させていただきます。</p><br /><p><span style="text-decoration: underline;">日時<span>：2025年1月10日(金)PM20時00分 ～<span>1月11日(土)</span>AM8</span></span><span style="text-decoration: underline;">時00分</span></p><br /><p>※作業が完了次第、営業再開致します。</p><br /><p>ご迷惑をお掛けいたしますが、何卒ご理解とご協力の程よろしくお願いいたします。</p>',
+	"target": ["インドアゴルフ南柏店"]
+}
+,{
+	"publish-start": "2025-01-06 16:00:00",
+	"publish-end": "2025-01-09 14:00:00",
+	"info_html": '<p><strong>【電気点検（停電）に伴う営業一時休止のお知らせ】</strong><br />下記時間、電気点検のため停電いたします。点検中は施設のご利用を休止させていただきます。</p><br /><p><span style="text-decoration: underline;">日時<span>：2025年1月9日(木)AM7時00分 ～AM11時00分</span></span></p><br /><p>※作業が完了次第、営業再開致します。</p><br /><p>ご迷惑をお掛けいたしますが、何卒ご理解とご協力の程よろしくお願いいたします。</p>',
+	"target": ["インドアゴルフ三郷店"]
+}
+,{
+	"publish-start": "2024-12-19 10:00:00",
+	"publish-end": "2025-01-07 23:59:00",
+	"info_html": '<p><strong>【スタッフ対応時間変更のお知らせ】</strong><br />1/1(水)からスタッフ対応時間を下記に変更とさせていただきます。</p><br /><p>■スタッフ対応時間　<span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;">10:00-19:00</span></span></p>',
+	"target": ["上越市役所前店"]
+}
+,{
+	"publish-start": "2024-11-29 10:00:00",
+	"publish-end": "2025-01-17 23:59:00",
+	"info_html": '<p><strong>【マシン入れ替えに伴う営業一時休止のお知らせ】</strong><br />下記時間、マシン入れ替えを行います。</p><br /><p><span style="text-decoration: underline;">日時<span>：2025年1月14日(火)午後から2時間程度</span></span></p><br /><p>※作業時間は前後します。</p><br /><p>ジム内に作業員が立ち入らせていただきます。</p><br /><p>作業中は大きな音が出る場合があります。</p><br /><p>ご迷惑をお掛けいたしますが、何卒ご理解とご協力の程よろしくお願いいたします。</p>',
+	"target": ["城東古市店"]
+}
+,{
+	"publish-start": "2024-11-29 10:00:00",
+	"publish-end": "2025-01-17 23:59:00",
+	"info_html": '<p><strong>【マシン入れ替えに伴う営業一時休止のお知らせ】</strong><br />下記時間、マシン入れ替えを行います。</p><br /><p><span style="text-decoration: underline;">日時<span>：2025年1月14日(火)11時00分 および 1月17日(金)時間未定</span></span></p><br /><p>※作業時間は前後します。</p><br /><p>ジム内に作業員が立ち入らせていただきます。</p><br /><p>作業中は大きな音が出る場合があります。</p><br /><p>ご迷惑をお掛けいたしますが、何卒ご理解とご協力の程よろしくお願いいたします。</p>',
+	"target": ["東広島西条店"]
+}
+,{
+	"publish-start": "2024-02-20 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"info_html": '<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="ig_facility_E.png" src="/shop_info/images/2024/ig_facility_E.png" width="1000" height="670" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></span>',
+	"target": ["インドアゴルフ井草店","インドアゴルフ松戸20世紀ヶ丘店","インドアゴルフ横浜北山田店","インドアゴルフ小田原蛍田店","インドアゴルフ草加店"]
+}
+,{
+	"publish-start": "2024-02-20 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"info_html": '<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="ig_facility_D.png" src="/shop_info/images/2024/ig_facility_D.png" width="1001" height="670" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></span>',
+	"target": ["インドアゴルフ西東京保谷町店","インドアゴルフ長久手グリーンロード店","インドアゴルフ江南店"]
+}
+,{
+	"publish-start": "2024-02-20 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"info_html": '<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="ig_facility_C.png" src="/shop_info/images/2024/ig_facility_C.png" width="1001" height="670" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></span>',
+	"target": ["インドアゴルフ横浜都岡店","インドアゴルフ千音寺アズタウン店","インドアゴルフ我孫子緑店","インドアゴルフ川越店","インドアゴルフ堺泉北店","インドアゴルフ多摩ニュータウン堀之内店","インドアゴルフ御経塚店","インドアゴルフ豊山店","インドアゴルフ柏松ヶ崎店","インドアゴルフ中川店","インドアゴルフ南柏店","インドアゴルフ春日店","インドアゴルフ広島祇園新道店","インドアゴルフ三郷店","インドアゴルフ金沢有松店"]
+}
+,{
+	"publish-start": "2024-02-20 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"info_html": '<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="ig_facility_A_12000.png" src="/shop_info/images/2024/ig_facility_A_12000.png" width="1000" height="670" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></span>',
+	"target": ["インドアゴルフ飯能店","インドアゴルフ大田千鳥店"]
+}
+,{
+	"publish-start": "2024-02-20 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"info_html": '<span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="ig_facility_A_11000.png" src="/shop_info/images/2024/ig_facility_A_11000.png" width="1000" height="670" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></span>',
+	"target": ["インドアゴルフ船橋習志野店","インドアゴルフつくば学園店","インドアゴルフ宮崎柳丸店","インドアゴルフ長野若槻店","インドアゴルフ調布店","インドアゴルフ浜松萩丘店","インドアゴルフ厚別東店","インドアゴルフ札幌北42条店","インドアゴルフ千葉都賀店","インドアゴルフ厚木林店","インドアゴルフ前橋片貝店","インドアゴルフ東川口店","インドアゴルフ福岡原店","インドアゴルフ福岡箱崎店","インドアゴルフ町田忠生店","インドアゴルフ四軒家店","インドアゴルフ大口店"]
+}
+,{
+	"publish-start": "2021-03-24 11:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"info_html": '<p>●快活CLUBLuz湘南辻堂店は飲み放題カフェの設置がございません。<br />●快活CLUBでの飲み放題カフェご利用可能店舗は<a href="https://www.kaikatsu.jp/shop/result.html?service=119" target=" _blank"><span size="3">こちら</span></a></p>',
+	"target": ["Luz湘南辻堂店"]
+}
+];
+

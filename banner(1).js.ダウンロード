@@ -1,0 +1,367 @@
+var shop_cont_banner = [
+{
+	"publish-start": "2025-01-04 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "<h2 style=\"text-align: left;\"><span style=\"color: #ff0000;\">FiT24横浜北山田店 電話回線不具合のお知らせ</span></h2>\r\n<p style=\"text-align: left;\">現在、電話回線に不具合が発生しております。<br />ご迷惑をおかけし申し訳ございませんが、電話でのお問い合わせは以下店舗で臨時受付をしております。</p>\r\n<p style=\"text-align: left;\"><br />店舗名:FiT24センター南店 <br />電話番号:045-948-5688 <br />受付時間: 11:00-20:00</p>\r\n<p><br />直接ご来店いただいてのお問い合わせに関してましては、 <br />スタッフ対応時間の10:00-20:00に当店店舗スタッフまでお声がけくださいませ。</p>\r\n<p><br /><br /></p>",
+	"html-btm": "",
+	"target": ["横浜北山田店"]
+}
+,{
+	"publish-start": "2025-01-01 00:00:00",
+	"publish-end": "2025-01-31 23:59:00",
+	"image01": "/shop_cont_banner/images/2024/fc24649366b0f32e4699f8a00a8646e9.png",
+	"url01": "https://www.fit24.jp/cp/cp_1a.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-bottom: 2rem;\"><span style=\"color: #000000;\">※キャンペーンでのご入会は、入会月を1ヶ月目として、6ヶ月以上の在籍が条件となります。</span></p>",
+	"target": ["八戸沼館店"]
+}
+,{
+	"publish-start": "2025-01-01 00:00:00",
+	"publish-end": "2025-01-31 23:59:00",
+	"image01": "/shop_cont_banner/images/2024/fc24649366b0f32e4699f8a00a8646e9.png",
+	"url01": "https://www.fit24.jp/cp/cp_1a.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<h5 style=\"text-align: center; margin-bottom: 2rem;\"><span style=\"color: #000000;\">※キャンペーンでのご入会は、入会月を1ヶ月目として、6ヶ月以上の在籍が条件となります。</span></h5>",
+	"target": ["宜野湾店","町田忠生店","横浜都岡店","小田原蛍田店","前橋片貝店","厚別東店","吹田岸部店","浜松萩丘店","飯能店","小倉守恒店","博多ミスト店","前橋天川大島店","江南店","鹿児島天保山店","盛岡バイパス店","熊本近見店","東川口店","大森駅前店","宮崎柳丸店","つくば学園店","熊本長嶺店","狭山入間川店","津久井城山店","焼津店","八潮店","那覇古波蔵店","横浜弘明寺店","名古屋浄心店","夙川店","和光光が丘店","福島南店","千葉花見川店","八幡永犬丸店","大田千鳥店","高知南久保店","山形嶋北店","千葉美浜店","船橋習志野店","松山平井店","札幌北42条店","鴻巣店","郡山安積店","入間店","小田原鴨宮店","和歌山榎原店","仙台国見ケ丘店","鎌ヶ谷北初富店","龍ケ崎店","野々市店","長野南バイパス店","瑞穂店","長野若槻店","佐倉寺崎店","蓮田店","土浦荒川沖店","高知中万々店","二俣川駅前店","山形高堂店","那珂店","旭川大町店","周南久米店","佐世保大塔店","瑞江駅前店","甲賀水口店","富里インター店","千葉都賀店","所沢小手指店","横浜北山田店","下関綾羅木店","本庄東店","福岡水城店","丸亀店","長野昭和通り店","名護店","西宮丸橋店","松本南店","上尾西口駅前店","ワンダーシティ南熊本店","厚木林店","東広島西条店","多賀城店","函館昭和店","浜松原島店","越谷蒲生店","太田内ケ島店","ブランチ福岡下原店","成田ニュータウン店","武蔵境駅前店","伊勢崎連取店","札幌狸小路2丁目店","姫路北条店","城東古市店","鯖江店","上越市役所前店","三島店","静岡流通通り店","静岡曲金店","豊田小坂店","高崎高関店","日立北店","春日部ユリノキ通り店","八千代店","市原店","平塚宮松店","センター南店","座間店","伊勢原店","調布国領店","秋田新国道店","札幌環状通東店","札幌西岡店","青森観光通り店","Luz湘南辻堂店","イオンタウン伊祖店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/2df6292773bb95b7937de6cf478a73f0.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_sakaisenpoku.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ堺泉北店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/ff92f5dcacc64930a54aafcc0ee229bb.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_sennonjiazutown.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ千音寺アズタウン店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/ec428b302a44183acfd89762c19b4df3.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_kanazawaarimatsu.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ金沢有松店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/0a0140dc500c0d791a1ee2bc48601633.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_nakagawa.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ中川店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/7385997f669c30b8b6a30cb045b39dd7.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_nagakutegreenroad.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ長久手グリーンロード店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/173c66a6b464244b824f90a62bfaece1_1.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_okyouduka.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ御経塚店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/ca9cc0fc08a144fefc9faddc12b9c116.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_shikenya.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ四軒家店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/0cf102ab86450108b6c72e7963c90673.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_toyoyama.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ豊山店"]
+}
+,{
+	"publish-start": "2024-12-26 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/126bd0d17640c9ca7044e318cbb228fa.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"> <a href=\"https://www.fit24.jp/information/close_FAQ_indoorgolf_ooguchi.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["インドアゴルフ大口店"]
+}
+,{
+	"publish-start": "2024-12-25 14:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/0892784f8650b88f31c11627028c8416.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"><a href=\"https://www.fit24.jp/information/close_FAQ_aobadai.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["青葉台店"]
+}
+,{
+	"publish-start": "2024-12-25 14:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/a2363f2cb077ff76a2e8e80ea190f945.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"><a href=\"https://www.fit24.jp/information/close_FAQ_kashiwa.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong></p>\r\n<div style=\"height: 40px;\"></div>",
+	"target": ["柏松ヶ崎店"]
+}
+,{
+	"publish-start": "2024-12-25 12:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/537e88ae0ddaa0fe33ce55971616f418.png",
+	"url01": "#sec02",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["函館昭和店","札幌西岡店","札幌狸小路2丁目店","札幌北42条店","札幌環状通東店","厚別東店","旭川大町店","八戸沼館店","青森観光通り店","盛岡バイパス店","秋田新国道店","多賀城店","仙台国見ケ丘店","山形高堂店","山形嶋北店","福島南店","郡山安積店","龍ケ崎店","日立北店","那珂店","土浦荒川沖店","つくば学園店","前橋片貝店","前橋天川大島店","高崎高関店","太田内ケ島店","伊勢崎連取店","和光光が丘店","本庄東店","八潮店","東川口店","飯能店","蓮田店","所沢小手指店","狭山入間川店","越谷蒲生店","鴻巣店","春日部ユリノキ通り店","入間店","上尾西口駅前店","八千代店","船橋習志野店","成田ニュータウン店","富里インター店","千葉美浜店","千葉花見川店","千葉都賀店","佐倉寺崎店","鎌ヶ谷北初富店","市原店","武蔵境駅前店","瑞穂店","瑞江駅前店","町田忠生店","調布国領店","大森駅前店","大田千鳥店","Luz湘南辻堂店","横浜都岡店","横浜弘明寺店","横浜北山田店","二俣川駅前店","平塚宮松店","津久井城山店","センター南店","座間店","小田原蛍田店","小田原鴨宮店","伊勢原店","厚木林店","上越市役所前店","野々市店","鯖江店","松本南店","長野若槻店","長野南バイパス店","長野昭和通り店","焼津店","三島店","浜松原島店","浜松萩丘店","静岡流通通り店","静岡曲金店","名古屋浄心店","豊田小坂店","江南店","甲賀水口店","和歌山榎原店","吹田岸部店","城東古市店","姫路北条店","西宮丸橋店","夙川店","東広島西条店","周南久米店","下関綾羅木店","丸亀店","松山平井店","高知南久保店","高知中万々店","八幡永犬丸店","ブランチ福岡下原店","福岡水城店","博多ミスト店","小倉守恒店","佐世保大塔店","ワンダーシティ南熊本店","熊本長嶺店","熊本近見店","宮崎柳丸店","鹿児島天保山店","那覇古波蔵店","名護店","宜野湾店","イオンタウン伊祖店"]
+}
+,{
+	"publish-start": "2024-12-25 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/6d316c40dcab7fed9e7d36c154a781bf.png",
+	"url01": "https://www.fit24.jp/information/fit24_trainingsupport.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["札幌西岡店","札幌環状通東店","札幌北42条店","札幌狸小路2丁目店","厚別東店","青森観光通り店","八戸沼館店","秋田新国道店","盛岡バイパス店","山形高堂店","山形嶋北店","仙台国見ケ丘店","多賀城店","福島南店","郡山安積店","日立北店","那珂店","龍ケ崎店","土浦荒川沖店","鴻巣店","蓮田店","春日部ユリノキ通り店","入間店","和光光が丘店","所沢小手指店","飯能店","上尾西口駅前店","狭山入間川店","八千代店","千葉花見川店","千葉美浜店","船橋習志野店","千葉都賀店","市原店","大田千鳥店","大森駅前店","調布国領店","武蔵境駅前店","瑞穂店","横浜弘明寺店","センター南店","横浜北山田店","上越市役所前店","長野昭和通り店","長野南バイパス店","長野若槻店","松本南店","東広島西条店","下関綾羅木店","周南久米店","八幡永犬丸店","小倉守恒店","ブランチ福岡下原店","福岡水城店","博多ミスト店","ワンダーシティ南熊本店","熊本近見店","熊本長嶺店","名護店","イオンタウン伊祖店","那覇古波蔵店","吹田岸部店","つくば学園店","和歌山榎原店","鯖江店","城東古市店","甲賀水口店","野々市店","函館昭和店","成田ニュータウン店","佐倉寺崎店","鎌ヶ谷北初富店","座間店","津久井城山店","姫路北条店","西宮丸橋店","夙川店","高知中万々店","高知南久保店","宮崎柳丸店","鹿児島天保山店","高崎高関店","前橋片貝店","前橋天川大島店","太田内ケ島店","本庄東店","伊勢崎連取店","町田忠生店","丸亀店","富里インター店","瑞江駅前店","二俣川駅前店","旭川大町店","松山平井店","東川口店","横浜都岡店","宜野湾店"]
+}
+,{
+	"publish-start": "2024-12-24 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/2fde5d36a4ef58358658d3cf53f3af23.png",
+	"url01": "https://www.fit24.jp/information/trial202303.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["函館昭和店","札幌西岡店","札幌狸小路2丁目店","札幌北42条店","札幌環状通東店","厚別東店","旭川大町店","八戸沼館店","青森観光通り店","盛岡バイパス店","秋田新国道店","多賀城店","仙台国見ケ丘店","山形高堂店","山形嶋北店","福島南店","郡山安積店","龍ケ崎店","日立北店","那珂店","土浦荒川沖店","つくば学園店","前橋片貝店","前橋天川大島店","高崎高関店","太田内ケ島店","伊勢崎連取店","和光光が丘店","本庄東店","八潮店","東川口店","飯能店","蓮田店","所沢小手指店","狭山入間川店","越谷蒲生店","鴻巣店","春日部ユリノキ通り店","入間店","上尾西口駅前店","八千代店","船橋習志野店","成田ニュータウン店","富里インター店","千葉美浜店","千葉花見川店","千葉都賀店","佐倉寺崎店","鎌ヶ谷北初富店","市原店","武蔵境駅前店","瑞穂店","瑞江駅前店","町田忠生店","調布国領店","大森駅前店","大田千鳥店","Luz湘南辻堂店","横浜都岡店","横浜弘明寺店","横浜北山田店","二俣川駅前店","平塚宮松店","津久井城山店","センター南店","座間店","小田原蛍田店","小田原鴨宮店","伊勢原店","厚木林店","上越市役所前店","野々市店","鯖江店","松本南店","長野若槻店","長野南バイパス店","長野昭和通り店","焼津店","三島店","浜松原島店","浜松萩丘店","静岡流通通り店","静岡曲金店","名古屋浄心店","豊田小坂店","江南店","甲賀水口店","和歌山榎原店","吹田岸部店","城東古市店","姫路北条店","西宮丸橋店","夙川店","東広島西条店","周南久米店","下関綾羅木店","丸亀店","松山平井店","高知南久保店","高知中万々店","八幡永犬丸店","ブランチ福岡下原店","福岡水城店","博多ミスト店","小倉守恒店","佐世保大塔店","ワンダーシティ南熊本店","熊本長嶺店","熊本近見店","宮崎柳丸店","鹿児島天保山店","那覇古波蔵店","名護店","宜野湾店","イオンタウン伊祖店"]
+}
+,{
+	"publish-start": "2024-12-24 10:00:00",
+	"publish-end": "2025-02-07 18:00:00",
+	"image01": "/shop_cont_banner/images/2024/3844fca56ca61846ca7a4cc4c7a0b48c_1.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["横浜北山田店"]
+}
+,{
+	"publish-start": "2024-12-24 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/8ca855dbcec08147f3ae427071697ec6.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "/shop_cont_banner/images/2024/e365f2216a8a8801fd3c9821e5179ed7.png",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["インドアゴルフ我孫子緑店"]
+}
+,{
+	"publish-start": "2024-12-24 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/8a8c8d27a9dc908c9d6440a06a842fba.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "/shop_cont_banner/images/2024/845ef44ed79955f13e4cd97fbc447b6e.png",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["インドアゴルフ南柏店"]
+}
+,{
+	"publish-start": "2024-11-18 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/e5bb1cc09d9b525307a9f632ed525cc5.png",
+	"url01": "https://www.fit24.jp/information/selfethte.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["鴻巣店"]
+}
+,{
+	"publish-start": "2024-11-15 00:00:00",
+	"publish-end": "2025-01-07 23:59:00",
+	"image01": "/shop_cont_banner/images/2024/6f2a8436292b9d1cc127dbd5aa19e1a6.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_blank",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["松山平井店","福島南店","横浜北山田店"]
+}
+,{
+	"publish-start": "2024-10-28 10:00:00",
+	"publish-end": "2025-01-26 23:59:00",
+	"image01": "/shop_cont_banner/images/2024/35163b7c35e7ea0847e2769922385a23_2.png",
+	"url01": "https://www.fit24.jp/information/fit24freetrialday.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["平塚宮松店","入間店","夙川店","大田千鳥店","上尾西口駅前店","熊本近見店","千葉花見川店","多賀城店","野々市店","小田原鴨宮店","高知中万々店","八潮店","Luz湘南辻堂店","東広島西条店","瑞穂店","春日部ユリノキ通り店","熊本長嶺店","伊勢原店","センター南店","高知南久保店","山形嶋北店","和歌山榎原店","二俣川駅前店","厚木林店","厚別東店","仙台国見ケ丘店","鴻巣店","狭山入間川店","調布国領店","横浜弘明寺店","蓮田店","札幌狸小路2丁目店","つくば学園店","長野昭和通り店","千葉都賀店"]
+}
+,{
+	"publish-start": "2024-10-28 10:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/35163b7c35e7ea0847e2769922385a23_1.png",
+	"url01": "https://www.fit24.jp/information/fit24freetrialday.html",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["函館昭和店","札幌北42条店","旭川大町店","札幌西岡店","札幌環状通東店","青森観光通り店","八戸沼館店","盛岡バイパス店","秋田新国道店","山形高堂店","福島南店","郡山安積店","日立北店","那珂店","龍ケ崎店","土浦荒川沖店","伊勢崎連取店","高崎高関店","太田内ケ島店","前橋片貝店","前橋天川大島店","所沢小手指店","飯能店","本庄東店","鎌ヶ谷北初富店","市原店","成田ニュータウン店","佐倉寺崎店","千葉美浜店","八千代店","船橋習志野店","富里インター店","瑞江駅前店","大森駅前店","座間店","横浜都岡店","小田原蛍田店","上越市役所前店","鯖江店","長野南バイパス店","松本南店","長野若槻店","浜松萩丘店","焼津店","静岡曲金店","静岡流通通り店","三島店","浜松原島店","豊田小坂店","江南店","名古屋浄心店","甲賀水口店","城東古市店","姫路北条店","西宮丸橋店","下関綾羅木店","周南久米店","丸亀店","松山平井店","八幡永犬丸店","小倉守恒店","福岡水城店","ブランチ福岡下原店","博多ミスト店","佐世保大塔店","ワンダーシティ南熊本店","宮崎柳丸店","鹿児島天保山店","町田忠生店","厚別東店"]
+}
+,{
+	"publish-start": "2024-09-27 18:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/6b23fad8fc29e77dbd8c580e04605bcf_1.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>統合のその他ご不明点について、詳しくは<span style=\"color: #339966;\"><a href=\"https://www.fit24.jp/information/close_FAQ_asahikawanagayama.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong><a></a></p>",
+	"target": ["【閉店】旭川永山店","旭川永山店"]
+}
+,{
+	"publish-start": "2024-09-27 18:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/e33a556a34287cd36b03c9ee5e5ee659_1.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<p style=\"text-align: center; margin-top: 0;\"><strong>閉店のその他ご不明点について、詳しくは<span style=\"color: #339966;\"><a href=\"https://www.fit24.jp/information/close_FAQ_nagoyaishikawabashi.html\"><span style=\"color: #339966;\">こちら</span></a></span></strong><a></a></p>",
+	"target": ["【閉店】名古屋石川橋店","名古屋石川橋店"]
+}
+,{
+	"publish-start": "2024-08-01 00:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/dbeeacbbc460a00eda5e5454e8e4b4e2_2.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "/shop_cont_banner/images/2024/041c0796a455a9488eebfd01881a2139.png",
+	"url02": "https://www.fit24.jp/information/indoorgolf_selftrial.html",
+	"window02":"_blank",
+	"html-top": "",
+	"html-btm": "",
+	"target": ["インドアゴルフ草加店","インドアゴルフ西東京保谷町店","インドアゴルフ三郷店","インドアゴルフ広島祇園新道店","インドアゴルフ春日店","インドアゴルフ南柏店","インドアゴルフ柏松ヶ崎店","インドアゴルフ多摩ニュータウン堀之内店","インドアゴルフ川越店","インドアゴルフ我孫子緑店","インドアゴルフ東川口店","インドアゴルフ福岡箱崎店","インドアゴルフ福岡原店","インドアゴルフ厚木林店","インドアゴルフ大田千鳥店","インドアゴルフ浜松萩丘店","インドアゴルフ調布店","インドアゴルフ井草店","インドアゴルフ松戸20世紀ヶ丘店","インドアゴルフ飯能店","インドアゴルフ横浜北山田店","インドアゴルフ長野若槻店","インドアゴルフつくば学園店","インドアゴルフ江南店","インドアゴルフ厚別東店","インドアゴルフ千葉都賀店","インドアゴルフ前橋片貝店","インドアゴルフ小田原蛍田店","インドアゴルフ横浜都岡店","インドアゴルフ町田忠生店","インドアゴルフ札幌北42条店","インドアゴルフ宮崎柳丸店","インドアゴルフ船橋習志野店"]
+}
+,{
+	"publish-start": "2000-01-01 00:00:00",
+	"publish-end": "2040-12-31 00:00:00",
+	"image01": "/shop_cont_banner/images/2024/380e69c37e22a9ea04a1774642349ba3.png",
+	"url01": "",
+	"window01":"_self",
+	"image02": "",
+	"url02": "",
+	"window02":"_self",
+	"html-top": "",
+	"html-btm": "<div style=\"max-width: 600px; height: auto; margin: 0 auto;\">\r\n<p style=\"text-align: left;\"><span style=\"color: #ff0000;\"><strong><strong>【2025年1月31日受付終了】</strong></strong></span></p>\r\n<p style=\"text-align: left;\"><span style=\"color: #339966;\"><strong>通常プラン＋タオルオプションのご契約で、</strong></span><span style=\"color: #339966;\"><strong>フェイスタオル・バスタオル1日1セットをご利用いただけます。</strong></span></p>\r\n<p style=\"text-align: left;\"><span style=\"color: #339966;\"><strong>手荷物が減り、ジム利用がさらにお手軽になりました。</strong></span></p>\r\n<p style=\"text-align: left; font-size: 0.8rem;\">※予告なく終了する可能性がございますので、あらかじめご了承ください。</p>\r\n<p style=\"text-align: left; font-size: 0.8rem;\">※タオルはタオルオプションを無料にて契約が必要です。</p>\r\n<p style=\"text-align: left; font-size: 0.8rem;\">※通常プランでのご契約の場合に、無料でご契約いただけます。</p>\r\n</div>",
+	"target": ["八戸沼館店"]
+}
+];
+
